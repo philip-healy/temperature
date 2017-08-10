@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>re-frame Temperature Converter</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/temperature.css">
+  </head>
+  <body>
+    <!-- Bootstrap container -->
+    <div class="container-fluid">
+
+      <!-- First row - jumbotron -->
+      <div class="row">
+        <div class="col-12 jumbotron">
+          <h1><span class="fa fa-thermometer-empty"/> Temperature Converter</h1>
+          <p>A minimal <a href="https://github.com/Day8/re-frame">re-frame</a> application.</p>
+        </div>
+      </div>
+
+      <!-- Second row - app -->
+      <div class="row">
+        <div id="app" class="col-4 mx-auto"></div>
+          <script src="js/compiled/app.js"></script>
+          <script>temperature.core.init();</script>
+        </div>
+      </div>
+
+      <!-- Bootstrap 4 JS dependencies -->
+      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+  </body>
+</html>

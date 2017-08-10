@@ -1,0 +1,25 @@
+.temperature-component {
+    font-size: x-large;
+}
+
+.temperature-component .field {
+}
+
+.temperature-component .field input {
+    font-size: inherit;
+}
+
+.temperature-component .field .label {
+    color: white;
+
+    font-size: inherit;
+    font-weight: bold;
+
+    width: 3em;
+}
+
+.temperature-component .equals {
+    font-size: 200%;
+    line-height: 1.5em;
+    text-align: center;
+}
