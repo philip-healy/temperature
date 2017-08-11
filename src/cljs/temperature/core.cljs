@@ -17,7 +17,7 @@
     (if (or (str/blank? fahrenheit-str)
             (js/isNaN fahrenheit-float))
       ""
-      (-> fahrenheit-float (- 32) (* 5) (/ 9.0)))))
+      (-> fahrenheit-float (- 32) (* 5) (/ 9.0) str))))
 
 
 ;; Events
